@@ -1,0 +1,184 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navv{display :flex;
+flex-direction: row;
+align-items:center;
+}
+
+.ul{margin-left: 700px;}
+header {
+    background: #ffe6cc;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: #ff8000;
+}
+
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: #fff6e6;
+    padding: 100px 20px;
+    /* background-image: url(../images/banner.png); */
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.hero button {
+    background: #ff8000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background: #e67300;
+}
+
+/* Features Section */
+.features {
+    background: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.features p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.features button {
+    background: #ff8000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.features button:hover {
+    background: #e67300;
+}
+
+/* Facts Section */
+.facts {
+    background: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.facts h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stat {
+    margin: 20px;
+}
+
+.stat h3 {
+    font-size: 2rem;
+    color: #ff8000;
+}
+
+.stat p {
+    font-size: 1rem;
+}
+
+/* Sponsors Section */
+.sponsors {
+    background: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.sponsors h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.sponsors .logos img {
+    width: 100px;
+    margin: 10px;
+}
+
+/* Footer */
+footer {
+    background: #ffe6cc;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .stats {
+        flex-direction: column;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav a {
+        margin: 10px 0;
+    }
+}
